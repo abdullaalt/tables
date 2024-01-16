@@ -1,0 +1,35 @@
+ 
+<link rel="stylesheet" href="/css/signStyle.css" />
+
+<div class="sign_wrapp">
+ 
+      <img class="sign_back" src="/images/background.svg" alt="Background" />
+      <div class="sign_block">
+        <form id="auth-form">
+        <img class="logo" src="/images/auth-logo.svg" alt="Logo" />
+        
+        <input name="phone" class="sign_in" type="text" placeholder="Логин" />
+        <input name="password"
+          class="sign_in"
+          type="password"
+          placeholder="Пароль"
+          style="margin-bottom: 30px"
+        />
+        <button onclick="auth.authorize(event)" class="sign_btn">Войти</button>
+
+        <a href="https://gate.esia.pro/auth/authorize?client_id=LCHhibqCt7o3FpOnnYD2WSin-TyScOVE7DWc_B0ttQo&response_type=code&scope=openid%20fullname&redirect_uri=https://crm.kod06.ru/auth/gosuslugi&provider=esia_oauth&state=1a73f168-4485-11ed-b878-0242ac120002" class="auth-with-gosuslugi"><img src="/images/gosuslugi.png" height="32" /> Войти через Госуслуги</a>
+      
+        <!--h2 class="sign_zag">Вход через</h2>
+        <div class="btn_block">
+          <img class="btn_image" src="/images/gos_btn.svg" alt="gos" />
+          <img class="btn_image" src="/images/lead_btn.svg" alt="gos" />
+        </div>
+        <a href="#!" class="sing_href">Пользовательское соглашение</a>
+        <a href="#!" class="sing_href"
+          >Политика обработки персональных данных</a
+        >
+        <a href="#!" class="sing_href">© 2013-2022 Все права защищены.</a-->
+      </form>
+      </div>
+    
+</div>
